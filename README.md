@@ -9,7 +9,7 @@
 :scroll: **Publication Page** **|** :microscope: [**Experimental Dataset**](https://doi.org/10.5281/zenodo.17523561) **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
 
 <p align="center">
-<img src="imgs/principle.png", width='800'>
+<img src="result/fig1.png", width='800'>
 </p>
 </div>
 
