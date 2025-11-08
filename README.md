@@ -6,30 +6,19 @@
 :school: Department of Precision Instruments, Tsinghua University*
 
 
-:scroll: **Publication Page** **|** :microscope: [**Experimental Dataset**](https://doi.org/10.5281/zenodo.17523561) **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
-
 <p align="center">
-<img src="result/fig1.png", width='800'>
+<img src="result/mainfig.jpg", width='800'>
 </p>
 </div>
 
 Quantitative phase microscopy (QPM) enables label-free imaging and precise characterization of transparent specimens by measuring phase delay. However, optical aberrations induce wavefront distortions that degrade phase reconstruction accuracy, resolution, and contrast. Existing strategies require diverse measurements or iterative optimization, limiting flexibility for real-time applications. Here, we propose an adaptive aberration-corrected QPM system enabled by a physics-informed cycle-consistent network (PICNet) without prior calibration. By incorporating a learnable physical forward model to approximate the practical image formation and enforcing cycle consistency between object and measurement domains, PICNet can reconstruct the object phase from a single-shot measurement while simultaneously inferring complex aberrations that are difficult to characterize explicitly. Our approach achieves a 60\% improvement in structural similarity compared with uncorrected results. Experiments demonstrate that PICNet enables rapid and high-fidelity phase retrieval across diverse biological samples with enhanced robustness to aberrations. This physically reliable and self-calibrating framework establishes a general paradigm for solving inverse problems across various computational imaging modalities. 
 
-
-## News
-
-
-- **2025.07.09** &nbsp; :fire: Simulation code released.
-
-- **2025.07.09** &nbsp; :fire: Pretrained models are released. Click [**here**](https://github.com/THUHoloLab/ViDNet) for more details.
-
-
 ## Requirements
 
-Deep PnP algorithms are implemented with Python in Spyder. Experimental pre- and post-processing codes are written in MATLAB.
+PICNet algorithms are implemented with Python in PyCharm 2024.1.3. Experimental pre- and post-processing codes are written in MATLAB.
 
-- MATLAB R2022b or newer versions
-- Python 3.9, PyTorch >= 2.3.1
+- MATLAB R2023b or newer versions
+- Python 3.11.4, PyTorch >= 2.3.1
 - Platforms: Windows 10 / 11
 
 ## Quick Examples
