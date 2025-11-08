@@ -1,3 +1,3 @@
-The proposed framework PICNet is trained by employing the NCT-CRC-HE-100K histopathology dataset . 
-After processing, 24,000 measured intensity images and 5,098 object phase images at a spatial resolution of $224 \times 224$ pixels are obtained.
-Notably, the dataset encompasses diverse biological tissue types, including smooth muscle, normal colon mucosa, and lymphocytes. 
+The proposed framework PICNet is trained by employing the NCT-CRC-HE-100K histopathology dataset, which can be downloaded in "https://zenodo.org/records/1214456". 
+After processing, 24,000 measured intensity images and 5,098 object phase images at a spatial resolution of 224 × 224 pixels are obtained.
+The dataset encompasses diverse biological tissue types, including smooth muscle, normal colon mucosa, and lymphocytes. 
