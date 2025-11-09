@@ -49,7 +49,7 @@ PICNet algorithms are implemented with Python in PyCharm 2024.1.3. Experimental 
 We experimentally demonstrate quantitative phase imaging of quantitative phase target.
 
 <p align="left">
-<img src="result/QPT.gif", width="800">
+<img src="result/QPT.gif", width="600">
 <p align="left">
 
 
@@ -57,7 +57,7 @@ We experimentally demonstrate quantitative phase imaging of quantitative phase t
 We experimentally demonstrate the application of PICNet in biological imaging.
 
 <p align="left">
-<img src="result/tissue.gif", width="500">
+<img src="result/tissue.gif", width="800">
 <p align="left">
   
 ## Citation
