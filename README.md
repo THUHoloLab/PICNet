@@ -49,7 +49,7 @@ PICNet algorithms are implemented with Python in PyCharm 2024.1.3. Experimental 
 We experimentally demonstrate quantitative phase imaging of quantitative phase target.
 
 <p align="left">
-<img src="result/QPT.gif", width="600">
+<img src="result/QPT.gif", width="500">
 <p align="left">
 
 
