@@ -57,7 +57,7 @@ We experimentally demonstrate quantitative phase imaging of quantitative phase t
 We experimentally demonstrate the application of PICNet in biological imaging.
 
 <p align="left">
-<img src="result/tissue.gif", width="800">
+<img src="result/tissue.gif", width="500">
 <p align="left">
   
 ## Citation
