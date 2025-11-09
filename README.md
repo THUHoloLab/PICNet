@@ -44,20 +44,22 @@ PICNet algorithms are implemented with Python in PyCharm 2024.1.3. Experimental 
 
 ## Selective Results
 
-##### 1. Holographic imaging of freely moving organisms
+##### 1. Quantitative phase imaging of quantitative phase target
 
 We experimentally demonstrate quantitative phase imaging of quantitative phase target.
 
 <p align="left">
-<img src="imgs/paramecia_1.gif", width="394"> &nbsp;
-<img src="imgs/paramecia_2.gif", width="394">
-<p align="left">
-
-<p align="left">
-<img src="imgs/rotifers.gif", width="800">
+<img src="result/QPT.gif", width="800">
 <p align="left">
 
 
+##### 2. Application in biological imaging
+We experimentally demonstrate the application of PICNet in biological imaging.
+
+<p align="left">
+<img src="result/tissue.gif", width="800">
+<p align="left">
+  
 ## Citation
 
 ```BibTex
