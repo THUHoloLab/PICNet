@@ -182,15 +182,17 @@ class Physical_Forward_Model(nn.Module):
         )
 
         intensity = torch.pow(torch.abs(holo_field), 2)
-        I_norm = torch.zeros_like(intensity)
-        for i in range(intensity.size(0)):
-            ch = intensity[i, 0, :, :]
-            min_val = ch.min()
-            max_val = ch.max()
-            I_norm[i, 0, :, :] = (ch - min_val) / (max_val - min_val + 1e-8)
+        I = intensity
+        # I_norm = torch.zeros_like(intensity)
+        # for i in range(intensity.size(0)):
+        #     ch = intensity[i, 0, :, :]
+        #     min_val = ch.min()
+        #     max_val = ch.max()
+        #     I_norm[i, 0, :, :] = (ch - min_val) / (max_val - min_val + 1e-8)
 
-            # debug check
-            if torch.isnan(I_norm[i, 0, :, :]).any():
-                print(f"I_norm channel {i} contains NaN!")
+        #     # debug check
+        #     if torch.isnan(I_norm[i, 0, :, :]).any():
+        #         print(f"I_norm channel {i} contains NaN!")
 
-        return I_norm
+        return I
+
