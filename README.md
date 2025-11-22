@@ -62,7 +62,9 @@ We experimentally demonstrate the application of PICNet in biological imaging.
 ##### 3. Adaptive aberration correction
 Under different aberration conditions, PICNet enables real-time, adaptive aberration correction and robust phase retrieval.  
 
-
+<p align="left">
+<img src="result/adaptive1122.gif", width="800">
+<p align="left">
 
   
 ## Citation
