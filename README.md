@@ -52,7 +52,6 @@ We experimentally demonstrate quantitative phase imaging of quantitative phase t
 <img src="result/QPT.gif", width="500">
 <p align="left">
 
-
 ##### 2. Application in biological imaging
 We experimentally demonstrate the application of PICNet in biological imaging.
 
