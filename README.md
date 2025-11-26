@@ -72,12 +72,12 @@ Under different aberration conditions, PICNet enables real-time, adaptive aberra
 ```BibTex
 @article{xu2025model,
   title={Adaptive aberration-corrected quantitative phase microscopy via physics-informed deep learning},
-  author={Xu, Danlin and Cao, Liangcai, and Sun, Hongbo},
-  journal={xxxx},
-  volume={xxxx},
-  number={xxxx},
-  pages={xxxx},
+  author={Xu, Danlin and Cao, Liangcai and Sun, Hongbo},
+  journal={Advanced Photonics},
+  volume={7},
+  number={6},
+  pages={066013--066013},
   year={2025},
-  publisher={xxxx}
+  publisher={Society of Photo-Optical Instrumentation Engineers}
 }
 ```
